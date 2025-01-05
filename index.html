@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road-Rento-India's Own Car Rental App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style="background-color: #ffffff; height: 70px; display: flex; justify-content: space-between;">
+        <div>
+            <img id="apple" src="logo-removebg-preview.png" alt="logo" width="250px" style="position: relative;bottom: 20px;">
+        </div>
+        <div style="color:#000000 ; display: flex; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; justify-content: space-evenly; margin-top: 25px; margin-right: 25px;">
+            <a href="#suv" style="text-decoration: none;"><h2 class="owl" style="margin-right: 80px;">Home</h2></a>
+            <a href="#about" style="text-decoration: none;"><h2 class="owl" style="margin-right: 80px;">About</h2></a>
+            <a href="#glasss" style="text-decoration: none;"><h2 class="owl" style="margin-right: 80px;">Available Cars</h2></a>
+            <a href="#egg" style="text-decoration: none;"><h2 class="owl" style="margin-right: 80px;">Contact</h2></a>
+        </div>  
+    </div>
+    <hr>
+   <div>
+        <img src="Home.png" alt="Home">
+        <marquee id="cat" behavior="scroll" direction="" scrollamount="10">🚗🚗 At Road-Rento, we prioritize your comfort and safety. Our fleet is meticulously maintained, ensuring a smooth, reliable ride every time. With 24/7 customer support and transparent pricing, we’re committed to providing exceptional service. Trust us to make your journey hassle-free and enjoyable. Rent with confidence today! 🚗🚗
+        </marquee>
+   </div><hr>
+   <div class="suv">
+    <div id="about"> About Us </div>
+    </div>
+    <div class="product-gallery" style="font-size: 30px; text-align: center; font-family: Arial, Helvetica, sans-serif;">
+        Welcome to RoadRento, your trusted partner on the road since 2014. At RoadRento, we believe that every journey, whether it's a business trip, a family vacation, or a weekend getaway, should be smooth, comfortable, and memorable. Our mission is to provide high-quality car rental services that meet the diverse needs of our customers with unmatched reliability and excellence.
+        Founded in 2014, RoadRento began as a small, family-owned business with a passion for automobiles and a commitment to delivering exceptional customer service. What started with a modest fleet of a few cars has now grown into a well-established company with a diverse range of vehicles, serving thousands of satisfied customers each year. Over the past decade, our relentless focus on quality, customer satisfaction, and innovation has propelled us to become a leader in the car rental industry.
+    </div>
+   <div class="suv">
+       Available Suv's
+    </div>
+        <div id="glasss"></div>
+        <div class="product-gallery">
+             <div class="product"> 
+                <img src="suvs\car1.jpg" alt="Product 1"> 
+                    <h3>Tata Nova (Tata Motors)</h3> 
+                    <p>Price: $100</p> 
+                    <button onclick="location.href='product1.html'">View Details</button> 
+            </div> 
+            <div class="product"> 
+                <img src="suvs\car2.jpg" alt="Product 2"> 
+                    <h3>Mahindra Exo (Mahindra & Mahindra)</h3> 
+                    <p>Price: $150</p> 
+                    <button onclick="location.href='product2.html'">View Details</button> 
+            </div> 
+            <div class="product"> 
+                <img src="suvs\car3.jpg" alt="Product 3"> 
+                    <h3>Hyundai Vero (Hyundai India)</h3> 
+                    <p>Price: $200</p> 
+                    <button onclick="location.href='product3.html'">View Details</button> 
+            </div> 
+            <div class="product"> 
+                <img src="suvs\car4.jpg" alt="Product 4"> 
+                    <h3>Honda Astra (Honda Cars India)</h3> 
+                    <p>Price: $250</p> 
+                    <button onclick="location.href='product4.html'">View Details</button> 
+            </div>
+        </div>
+    </div>
+    <div class="suv">
+        Available Sedans
+    </div>
+    <div class="product-gallery">
+        <div class="product"> 
+           <img src="sedans/car1.jpg" alt="Product 1"> 
+               <h3>Product 1</h3> 
+               <p>Price: $100</p> 
+               <button onclick="location.href='product1.html'">View Details</button> 
+       </div> 
+       <div class="product"> 
+           <img src="sedans/car2.jpg" alt="Product 2"> 
+               <h3>Product 2</h3> 
+               <p>Price: $150</p> 
+               <button onclick="location.href='product2.html'">View Details</button> 
+       </div> 
+       <div class="product"> 
+           <img src="sedans/car3.jpg" alt="Product 3"> 
+               <h3>Product 3</h3> 
+               <p>Price: $200</p> 
+               <button onclick="location.href='product3.html'">View Details</button> 
+       </div> 
+       <div class="product"> 
+           <img src="sedans/car4.jpg" alt="Product 4"> 
+               <h3>Product 4</h3> 
+               <p>Price: $250</p> 
+               <button onclick="location.href='product4.html'">View Details</button> 
+       </div>
+   </div>
+   <div id="egg" style="background-color: rgba(209, 213, 215, 0.982);height: 630px; margin-top: 8px;">
+        <div class="contact-container">
+            <h1 class="texto">Contact Us</h1>
+            <form action="/submit_contact" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                    
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                <button type="submit">Send Message</button>
+                </form>
+        </div>
+    </div>    
+   <div style="background-color: rgb(0, 0, 0);height: 70px; color: rgb(255, 255, 255); text-align: center;padding-bottom: 10px;">
+    <h1 style="padding-top: 25px; font-family: Arial, Helvetica, sans-serif; padding-bottom: 15px; color: white;">@2012-2024 Road-Rento.com</h1>
+   </div>
+   <script src="scripts.js"></script>
+</body>
+</html>

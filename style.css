@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#apple{
+    position: relative;bottom: 9px;left: 40px;
+}
+#cat{
+    font-size: 25px;
+    background-color: #ffffff;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.product-gallery {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    width: 1450px;
+    position: relative;left: 20px;
+}
+
+.product {
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.product:hover{
+    width: 320px;
+}
+.product img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  
+}
+
+.product p {
+    margin: 10px 0;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.owl{
+    color: black;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.owl:hover{
+    color: #c61a1d;
+}
+.product button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+.suv{
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    width:480px;
+    position: relative;left: 530px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.suv:hover{
+    background-color: #ad0a16;
+    color: white;
+}
+#egg{
+    background-image: url('end.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.contact-container {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin-top: 0px;
+    position: relative;left: 50px;top: 50px;
+    opacity: 1;
+    
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.texto{
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
